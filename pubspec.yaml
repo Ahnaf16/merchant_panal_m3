@@ -1,0 +1,114 @@
+name: gngm
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 3.1.2+12
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # UI
+  cupertino_icons: ^1.0.5
+  dynamic_color: ^1.6.6
+  google_fonts: ^4.0.3
+  carousel_slider: ^4.2.1
+  custom_clippers: ^2.0.0
+  shimmer_animation: ^2.1.0+1
+  automatic_animated_list: ^1.1.0
+  flutter_staggered_grid_view: ^0.6.2
+  lottie: ^2.4.0
+  flutter_adaptive_scaffold: ^0.1.5
+  flutter_animate: ^4.2.0
+  material_design_icons_flutter: ^7.0.7296
+  timeline_tile: ^2.0.0
+  # Firebase
+  firebase_auth: ^4.6.3
+  firebase_core: ^2.14.0
+  firebase_storage: ^11.2.4
+  cloud_firestore: ^4.8.2
+  cloud_functions: ^4.3.3
+  # Util
+  routemaster: ^1.0.1
+  intl: ^0.18.1
+  nanoid: ^1.0.0
+  collection: ^1.17.1
+  universal_html: ^2.2.3
+  package_info_plus: ^4.0.2
+  url_launcher: ^6.1.11
+  image_picker: ^1.0.0
+  webview_flutter: ^4.2.2
+  pull_to_refresh: ^2.0.0
+  cached_network_image: ^3.2.3
+  flutter_native_splash: ^2.3.1
+  permission_handler: ^10.4.3
+  file_picker: ^5.3.2
+  fpdart: ^0.6.0
+  fluttertoast: ^8.2.2
+  dio: ^5.3.0
+  flutter_barcode_scanner: ^2.0.0
+  open_filex: ^4.3.2
+  # Data
+  flutter_riverpod: ^2.3.6
+  equatable: ^2.0.5
+  path_provider: ^2.0.15
+  shared_preferences: ^2.2.0
+  hive: ^2.2.3
+  #Documents
+  pdf: ^3.10.4
+  gsheets: ^0.4.2
+  syncfusion_flutter_charts: ^22.1.37
+  syncfusion_flutter_datagrid: ^22.1.37
+  syncfusion_flutter_xlsio: ^22.1.37
+  hive_flutter: ^1.1.0
+  flutter_dropzone: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  flutter_launcher_icons: ^0.13.1
+  custom_lint: ^0.4.0
+  riverpod_lint: ^1.3.2
+  build_runner: ^2.4.6
+  flutter_gen_runner: ^5.3.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/logo/
+    - assets/bank/
+    - assets/misc/
+    - assets/lottie/
+
+  fonts:
+    - family: PotroSans
+      fonts:
+        - asset: assets/fonts/PotroSans/PotroSansR.ttf
+
+# dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#fffbff"
+  color_dark: "#201a19"
+  image: assets/logo/logo_dark_splash.png
+  web: false
+
+# flutter pub run flutter_launcher_icons:main
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/logo/logo.png"
+
+# flutter packages pub run build_runner build
+flutter_gen:
+  output: lib/core/gen/
+  integrations:
+    lottie: true
+  assets:
+    outputs:
+      style: camel-case
+      class_name: Assets

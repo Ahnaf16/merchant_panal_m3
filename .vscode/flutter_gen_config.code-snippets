@@ -1,0 +1,10 @@
+{
+  "flutter_gen_config": {
+    "scope": "yaml",
+    "prefix": "fgen",
+    "body": [
+      "# flutter packages pub run build_runner build\r\nflutter_gen:\r\n  output: lib/core/gen/\r\n  line_length: 80\r\n  # Optional\r\n  integrations:\r\n    flutter_svg: false\r\n    flare_flutter: true\r\n    rive: true\r\n    lottie: true"
+    ],
+    "description": "creates config for  flutter gen"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "gng-test-server"
+  },
+  "targets": {
+    "gng-test-server": {
+      "hosting": {
+        "gngm3": [
+          "gng-merchant3"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
