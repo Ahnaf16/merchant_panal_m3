@@ -5,10 +5,10 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/version_manager/provider/app_version_provider.dart';
-import 'package:gngm/feature/version_manager/repo/app_version_repo.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/version_manager/provider/app_version_provider.dart';
+import 'package:merchant_m3/feature/version_manager/repo/app_version_repo.dart';
+import 'package:merchant_m3/models/models.dart';
 import 'package:open_filex/open_filex.dart';
 import 'package:universal_html/html.dart' as html;
 

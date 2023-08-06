@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/feature/auth/model/auth_state_model.dart';
+import 'package:merchant_m3/feature/auth/model/auth_state_model.dart';
 
 User? get getUser => FirebaseAuth.instance.currentUser;
 

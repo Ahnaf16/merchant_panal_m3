@@ -2,10 +2,10 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
+import 'package:merchant_m3/core/core.dart';
 
-import 'package:gngm/feature/delivery/repo/delivery_repo.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/feature/delivery/repo/delivery_repo.dart';
+import 'package:merchant_m3/models/models.dart';
 
 final deliveryCtrlProvider = StateNotifierProvider.autoDispose<
     DeliveryCtrlNotifier, DeliveryChargeModel>((ref) {

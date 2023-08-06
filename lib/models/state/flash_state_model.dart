@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/models/models.dart';
 
 class FlashSaleState {
   FlashSaleState({

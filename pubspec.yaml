@@ -1,4 +1,4 @@
-name: gngm
+name: merchant_m3
 description: A new Flutter project.
 
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -95,7 +95,7 @@ flutter:
 flutter_native_splash:
   color: "#fffbff"
   color_dark: "#201a19"
-  image: assets/logo/logo_dark_splash.png
+  image: assets/logo/logo_alpha.png
   web: false
 
 # flutter pub run flutter_launcher_icons:main

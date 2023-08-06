@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/auth/ctrl/auth_ctrl.dart';
-import 'package:gngm/theme/theme_manager.dart';
-import 'package:gngm/widget/widget.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/auth/ctrl/auth_ctrl.dart';
+import 'package:merchant_m3/theme/theme_manager.dart';
+import 'package:merchant_m3/widget/widget.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 import '../../../routes/route_names.dart';

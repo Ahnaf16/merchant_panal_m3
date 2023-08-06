@@ -2,9 +2,9 @@ import 'dart:developer';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:gngm/core/extensions/context_extension.dart';
-import 'package:gngm/core/gen/assets.gen.dart';
-import 'package:gngm/widget/shimmer.dart';
+import 'package:merchant_m3/core/extensions/context_extension.dart';
+import 'package:merchant_m3/core/gen/assets.gen.dart';
+import 'package:merchant_m3/widget/shimmer.dart';
 
 class ErrorView extends StatelessWidget {
   const ErrorView({

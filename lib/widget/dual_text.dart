@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:gngm/core/extensions/context_extension.dart';
+import 'package:merchant_m3/core/extensions/context_extension.dart';
 
 class DualText extends StatelessWidget {
   const DualText({

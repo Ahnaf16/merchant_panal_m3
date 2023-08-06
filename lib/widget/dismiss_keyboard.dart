@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gngm/core/core.dart';
+import 'package:merchant_m3/core/core.dart';
 
 class DismissKeyboard extends StatelessWidget {
   final Widget child;

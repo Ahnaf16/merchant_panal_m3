@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/slider/controller/slider_controller.dart';
-import 'package:gngm/feature/slider/provider/slider_provider.dart';
-import 'package:gngm/widget/widget.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/slider/controller/slider_controller.dart';
+import 'package:merchant_m3/feature/slider/provider/slider_provider.dart';
+import 'package:merchant_m3/widget/widget.dart';
 
 class SliderView extends ConsumerWidget {
   const SliderView({super.key});

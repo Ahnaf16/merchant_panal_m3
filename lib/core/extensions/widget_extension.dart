@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gngm/core/core.dart';
+import 'package:merchant_m3/core/core.dart';
 
 extension ButtonEx on IconButton {
   Widget adapt(BuildContext context, [String label = '']) {

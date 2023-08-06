@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/orders/ctrl/order_list_ctrl.dart';
-import 'package:gngm/models/models.dart';
-import 'package:gngm/widget/decorated.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/orders/ctrl/order_list_ctrl.dart';
+import 'package:merchant_m3/models/models.dart';
+import 'package:merchant_m3/widget/decorated.dart';
 
 class OrderSearchDialog extends ConsumerWidget {
   const OrderSearchDialog({super.key});

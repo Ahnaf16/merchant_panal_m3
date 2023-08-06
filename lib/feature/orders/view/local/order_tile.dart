@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/employee/provider/employee_provider.dart';
-import 'package:gngm/feature/orders/ctrl/order_ctrl.dart';
-import 'package:gngm/feature/orders/view/local/update_status_dialog.dart';
-import 'package:gngm/models/models.dart';
-import 'package:gngm/routes/route_names.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/employee/provider/employee_provider.dart';
+import 'package:merchant_m3/feature/orders/ctrl/order_ctrl.dart';
+import 'package:merchant_m3/feature/orders/view/local/update_status_dialog.dart';
+import 'package:merchant_m3/models/models.dart';
+import 'package:merchant_m3/routes/route_names.dart';
 
 class OrderTile extends ConsumerWidget {
   const OrderTile({super.key, required this.order});

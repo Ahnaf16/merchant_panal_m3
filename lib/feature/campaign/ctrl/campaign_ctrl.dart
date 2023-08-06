@@ -4,9 +4,9 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/campaign/repo/campaign_repo.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/campaign/repo/campaign_repo.dart';
+import 'package:merchant_m3/models/models.dart';
 
 final campaignImageStateProvider =
     StateProvider.autoDispose<PlatformFile?>((ref) {

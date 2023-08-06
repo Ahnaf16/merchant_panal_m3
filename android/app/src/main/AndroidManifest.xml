@@ -3,7 +3,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
     <application
-        android:label="GNG Merchant"
+        android:label="Merchant"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

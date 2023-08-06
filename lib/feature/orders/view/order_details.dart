@@ -3,17 +3,17 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:gngm/feature/employee/provider/employee_provider.dart';
-import 'package:gngm/feature/orders/ctrl/order_ctrl.dart';
-import 'package:gngm/feature/orders/view/local/update_paid_amount_dialog.dart';
-import 'package:gngm/feature/orders/view/local/update_status_dialog.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/feature/employee/provider/employee_provider.dart';
+import 'package:merchant_m3/feature/orders/ctrl/order_ctrl.dart';
+import 'package:merchant_m3/feature/orders/view/local/update_paid_amount_dialog.dart';
+import 'package:merchant_m3/feature/orders/view/local/update_status_dialog.dart';
+import 'package:merchant_m3/models/models.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/orders/providers/order_provider.dart';
-import 'package:gngm/routes/route_names.dart';
-import 'package:gngm/widget/widget.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/orders/providers/order_provider.dart';
+import 'package:merchant_m3/routes/route_names.dart';
+import 'package:merchant_m3/widget/widget.dart';
 
 class OrderDetailsView extends ConsumerWidget {
   const OrderDetailsView(this.id, {super.key});

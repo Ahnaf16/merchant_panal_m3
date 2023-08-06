@@ -1,9 +1,9 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:gngm/core/core.dart';
+import 'package:merchant_m3/core/core.dart';
 
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/models/models.dart';
 
 //! for campaign the title is used as id
 class CampaignModel {

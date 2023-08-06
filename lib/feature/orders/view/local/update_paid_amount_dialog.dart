@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/orders/ctrl/order_ctrl.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/orders/ctrl/order_ctrl.dart';
+import 'package:merchant_m3/models/models.dart';
 
 class UpdatePaidAmountDialog extends ConsumerWidget {
   const UpdatePaidAmountDialog({

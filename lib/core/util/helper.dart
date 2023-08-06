@@ -6,7 +6,7 @@ import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:gngm/core/core.dart';
+import 'package:merchant_m3/core/core.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
 String _prettyJSON(response) {

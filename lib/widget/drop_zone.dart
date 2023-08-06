@@ -2,7 +2,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dropzone/flutter_dropzone.dart';
-import 'package:gngm/core/core.dart';
+import 'package:merchant_m3/core/core.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class DropZoneWarper extends StatefulWidget {

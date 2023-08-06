@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/extensions/context_extension.dart';
-import 'package:gngm/feature/products/ctrl/products_list_ctrl.dart';
+import 'package:merchant_m3/core/extensions/context_extension.dart';
+import 'package:merchant_m3/feature/products/ctrl/products_list_ctrl.dart';
 
 class ProductSearchDialog extends ConsumerWidget {
   const ProductSearchDialog({super.key});

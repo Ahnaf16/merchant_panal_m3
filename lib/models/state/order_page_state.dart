@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/models/models.dart';
 
 enum OrderSort {
   orderDate('Order Date'),

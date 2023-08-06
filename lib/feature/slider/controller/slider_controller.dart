@@ -5,7 +5,7 @@ import 'dart:developer';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/models/slider/slider_model.dart';
+import 'package:merchant_m3/models/slider/slider_model.dart';
 import 'package:nanoid/nanoid.dart';
 
 import '../../../core/core.dart';

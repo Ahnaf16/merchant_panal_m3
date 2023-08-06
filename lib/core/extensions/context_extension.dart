@@ -2,8 +2,8 @@ import 'dart:developer';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/widget/widget.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/widget/widget.dart';
 import 'package:routemaster/routemaster.dart';
 
 extension RouteEx on BuildContext {

@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:gngm/models/slider/slider_model.dart';
+import 'package:merchant_m3/models/slider/slider_model.dart';
 
 import '../../../core/const/firebase_const.dart';
 import '../../../core/util/failure.dart';

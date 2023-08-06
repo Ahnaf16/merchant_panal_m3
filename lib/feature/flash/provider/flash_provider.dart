@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/const/firebase_const.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/core/const/firebase_const.dart';
+import 'package:merchant_m3/models/models.dart';
 
 final flashProvider = StreamProvider<List<FlashModel>>((ref) {
   final firestore = FirebaseFirestore.instance;

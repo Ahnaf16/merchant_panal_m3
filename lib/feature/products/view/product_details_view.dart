@@ -2,12 +2,12 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/employee/provider/employee_provider.dart';
-import 'package:gngm/feature/products/provider/product_provider.dart';
-import 'package:gngm/models/models.dart';
-import 'package:gngm/routes/route_names.dart';
-import 'package:gngm/widget/widget.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/employee/provider/employee_provider.dart';
+import 'package:merchant_m3/feature/products/provider/product_provider.dart';
+import 'package:merchant_m3/models/models.dart';
+import 'package:merchant_m3/routes/route_names.dart';
+import 'package:merchant_m3/widget/widget.dart';
 
 class ProductDetailsView extends ConsumerWidget {
   const ProductDetailsView({

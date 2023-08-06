@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/products/ctrl/product_add_edit_ctrl.dart';
-import 'package:gngm/models/product/categories.dart';
-import 'package:gngm/widget/widget.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/products/ctrl/product_add_edit_ctrl.dart';
+import 'package:merchant_m3/models/product/categories.dart';
+import 'package:merchant_m3/widget/widget.dart';
 
 class ProductAddEdit extends ConsumerWidget {
   const ProductAddEdit(this.id, {super.key});

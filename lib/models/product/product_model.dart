@@ -2,8 +2,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
-import 'package:gngm/core/extensions/helper_extension.dart';
-import 'package:gngm/feature/auth/provider/auth_provider.dart';
+import 'package:merchant_m3/core/extensions/helper_extension.dart';
+import 'package:merchant_m3/feature/auth/provider/auth_provider.dart';
 
 class ProductModel extends Equatable {
   ProductModel({

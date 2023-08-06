@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/delivery/ctrl/delivery_ctrl.dart';
-import 'package:gngm/widget/widget.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/delivery/ctrl/delivery_ctrl.dart';
+import 'package:merchant_m3/widget/widget.dart';
 
 class DeliveryView extends ConsumerWidget {
   const DeliveryView({super.key});

@@ -5,8 +5,8 @@ import 'package:file_picker/file_picker.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 
-import 'package:gngm/core/core.dart';
-import 'package:gngm/widget/shimmer.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/widget/shimmer.dart';
 
 class KCachedImg extends StatelessWidget {
   const KCachedImg({

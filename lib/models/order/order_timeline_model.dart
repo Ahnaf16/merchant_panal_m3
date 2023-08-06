@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:equatable/equatable.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/models/models.dart';
 
 class OrderTimelineModel extends Equatable {
   const OrderTimelineModel({

@@ -1,9 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fpdart/fpdart.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/auth/provider/auth_provider.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/auth/provider/auth_provider.dart';
+import 'package:merchant_m3/models/models.dart';
 
 import 'package:gsheets/gsheets.dart';
 

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/theme/custom_color.dart';
-import 'package:gngm/widget/widget.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/theme/custom_color.dart';
+import 'package:merchant_m3/widget/widget.dart';
 
 enum SnackType {
   info,

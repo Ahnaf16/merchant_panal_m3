@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/orders/repo/order_list_repo.dart';
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/orders/repo/order_list_repo.dart';
+import 'package:merchant_m3/models/models.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 final orderListCtrlProvider =

@@ -1,13 +1,13 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
+import 'package:merchant_m3/core/core.dart';
 
-import 'package:gngm/feature/campaign/ctrl/campaign_ctrl.dart';
-import 'package:gngm/feature/products/ctrl/products_list_ctrl.dart';
-import 'package:gngm/feature/products/view/local/product_search_sheet.dart';
-import 'package:gngm/models/models.dart';
-import 'package:gngm/widget/widget.dart';
+import 'package:merchant_m3/feature/campaign/ctrl/campaign_ctrl.dart';
+import 'package:merchant_m3/feature/products/ctrl/products_list_ctrl.dart';
+import 'package:merchant_m3/feature/products/view/local/product_search_sheet.dart';
+import 'package:merchant_m3/models/models.dart';
+import 'package:merchant_m3/widget/widget.dart';
 
 class AddUpdateCampaignView extends ConsumerWidget {
   const AddUpdateCampaignView(this.title, {super.key});

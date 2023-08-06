@@ -2,13 +2,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gngm/core/core.dart';
-import 'package:gngm/feature/version_manager/ctrl/app_version_ctrl.dart';
-import 'package:gngm/feature/version_manager/provider/app_version_provider.dart';
-import 'package:gngm/feature/auth/ctrl/auth_ctrl.dart';
-import 'package:gngm/feature/employee/provider/employee_provider.dart';
-import 'package:gngm/models/models.dart';
-import 'package:gngm/widget/widget.dart';
+import 'package:merchant_m3/core/core.dart';
+import 'package:merchant_m3/feature/version_manager/ctrl/app_version_ctrl.dart';
+import 'package:merchant_m3/feature/version_manager/provider/app_version_provider.dart';
+import 'package:merchant_m3/feature/auth/ctrl/auth_ctrl.dart';
+import 'package:merchant_m3/feature/employee/provider/employee_provider.dart';
+import 'package:merchant_m3/models/models.dart';
+import 'package:merchant_m3/widget/widget.dart';
 import 'package:routemaster/routemaster.dart';
 
 class RootNavigationView extends ConsumerStatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:gngm/core/core.dart';
+import 'package:merchant_m3/core/core.dart';
 
-import 'package:gngm/models/models.dart';
+import 'package:merchant_m3/models/models.dart';
 
 class FlashModel {
   FlashModel({

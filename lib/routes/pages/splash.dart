@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gngm/core/gen/assets.gen.dart';
+import 'package:merchant_m3/core/gen/assets.gen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key, this.info});
