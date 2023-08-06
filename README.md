@@ -1,16 +1,17 @@
-# gngm
+# MERCHANT Panel
 
-A new Flutter project.
+A Merchant Panel with Material 3 design. Build with **Flutter** and **Firebase**.
 
-## Getting Started
+## [Web Demo]([https://](https://merchant-m3.web.app))
 
-This project is a starting point for a Flutter application.
+Supported Platforms
 
-A few resources to get you started if this is your first Flutter project:
+- [x] Android
+- [x] Web
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+TO DO
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [x] Dynamic theme
+- [ ] More Merchant feature
+- [ ] Charts
+- [ ] Review Adaptiveness
