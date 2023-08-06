@@ -8,7 +8,7 @@ class StoragePath {
 
 class FirePath {
   static const String address = 'address';
-  static const String appConfig = 'inApp';
+  static const String appConfig = 'appConfig';
   static const String appUpdate = 'appUpdate';
   static const String gsheetCred = 'gsheets';
   static const String bkashData = 'bkash';

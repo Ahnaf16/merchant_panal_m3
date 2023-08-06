@@ -8,7 +8,7 @@
   },
   "hosting": {
     "public": "build/web",
-    "target": "gngm3",
+    "target": "m3",
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -3,11 +3,11 @@ import 'package:flutter/material.dart';
 class FallbackColor {
   static const lightColorScheme = ColorScheme(
     brightness: Brightness.light,
-    primary: Color(0xFFEC6C52),
+    primary: Color(0xFFF9BB4A),
     onPrimary: Color(0xFFFFFFFF),
-    primaryContainer: Color(0xFFFF9F8C),
+    primaryContainer: Color(0xFFFFD993),
     onPrimaryContainer: Color(0xFF313131),
-    secondary: Color(0xFFFF7043),
+    secondary: Color(0xFFFFBB3D),
     onSecondary: Color(0xFF313131),
     secondaryContainer: Color(0xFFFFCC80),
     onSecondaryContainer: Color(0xFF313131),
@@ -29,19 +29,19 @@ class FallbackColor {
     outlineVariant: Color(0xFFADADAD),
     inverseSurface: Color(0xFF212121),
     onInverseSurface: Color(0xFFFFFFFF),
-    inversePrimary: Color(0xFFEB4E2D),
+    inversePrimary: Color(0xFFF9BB4A),
     shadow: Color(0xFF000000),
-    surfaceTint: Color(0xFFB52707),
+    surfaceTint: Color(0xFFF9BB4A),
     scrim: Color(0xFF000000),
   );
 
   static const darkColorScheme = ColorScheme(
     brightness: Brightness.dark,
-    primary: Color(0xFFEC6C52),
+    primary: Color(0xFFF9BB4A),
     onPrimary: Color(0xFFFFFFFF),
-    primaryContainer: Color(0xFFFF9F8C),
+    primaryContainer: Color(0xFFFFD993),
     onPrimaryContainer: Color(0xFF313131),
-    secondary: Color(0xFFFF7043),
+    secondary: Color(0xFFFFBB3D),
     onSecondary: Color(0xFF313131),
     secondaryContainer: Color(0xFFFFCC80),
     onSecondaryContainer: Color(0xFF313131),
@@ -63,9 +63,9 @@ class FallbackColor {
     outlineVariant: Color(0xFFADADAD),
     inverseSurface: Color(0xFFE0E0E0),
     onInverseSurface: Color(0xFF000000),
-    inversePrimary: Color(0xFFEB4E2D),
+    inversePrimary: Color(0xFFF9BB4A),
     shadow: Color(0xFF000000),
-    surfaceTint: Color(0xFFFFBCAE),
+    surfaceTint: Color(0xFFF9BB4A),
     scrim: Color(0xFF000000),
   );
 }

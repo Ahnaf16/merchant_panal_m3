@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "gng-test-server"
+    "default": "adminpanal-40a75"
   },
   "targets": {
-    "gng-test-server": {
+    "adminpanal-40a75": {
       "hosting": {
-        "gngm3": [
-          "gng-merchant3"
+        "m3": [
+          "merchant-m3"
         ]
       }
     }

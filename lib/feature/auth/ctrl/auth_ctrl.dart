@@ -22,8 +22,8 @@ class AuthApiNotifier extends StateNotifier<AuthState> {
   AuthRepo get _repo => _ref.watch(authRepoProvider);
 
   devLogin() async {
-    emailCtrl.text = 'dev@gng.com';
-    passCtrl.text = 'aaaaaa';
+    emailCtrl.text = 'dev@marj.com';
+    passCtrl.text = '906916';
     await login();
   }
 

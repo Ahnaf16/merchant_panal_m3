@@ -50,20 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAGYA02ZL05hwAVUsNF2vRU2er-yIJ-KvE',
-    appId: '1:490690339322:web:18dddceb950b1092d3c443',
-    messagingSenderId: '490690339322',
-    projectId: 'gng-test-server',
-    authDomain: 'gng-test-server.firebaseapp.com',
-    storageBucket: 'gng-test-server.appspot.com',
-    measurementId: 'G-J7DGGPYM5W',
+    apiKey: 'AIzaSyCK3Ko6pKdGt6oFCJ-7PxeZkK7BWK6AsXI',
+    appId: '1:762149118588:web:4cb215c6dc08d962a35ff9',
+    messagingSenderId: '762149118588',
+    projectId: 'adminpanal-40a75',
+    authDomain: 'adminpanal-40a75.firebaseapp.com',
+    storageBucket: 'adminpanal-40a75.appspot.com',
+    measurementId: 'G-D7K8ZJL1WZ',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB9Xmw8d6f9zi_1yU61pFtI9YLlmD5CFhc',
-    appId: '1:490690339322:android:b164a3232022df5dd3c443',
-    messagingSenderId: '490690339322',
-    projectId: 'gng-test-server',
-    storageBucket: 'gng-test-server.appspot.com',
+    apiKey: 'AIzaSyBaV_KC2_CVuzAWlxEABI73jlQ89QGuTQs',
+    appId: '1:762149118588:android:5ccdd4bd6c1c74cfa35ff9',
+    messagingSenderId: '762149118588',
+    projectId: 'adminpanal-40a75',
+    storageBucket: 'adminpanal-40a75.appspot.com',
   );
 }
